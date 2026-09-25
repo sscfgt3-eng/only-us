@@ -1,0 +1,17 @@
+# Private data and starter credentials must NEVER be uploaded to a repository.
+data/
+restored-data/
+.bootstrap-users.json
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.sqlite3*
+*.zip
+*.log
+# The browser demo is a separate, explicitly insecure preview.
+Only-Us-Preview.html
+docs/preview-*.png
